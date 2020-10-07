@@ -44,7 +44,7 @@
     <script src="<?php echo base_url()?>assets/modernizr/modernizr-1.7.min.js"></script>
     <script src="<?php echo base_url()?>assets/jquery-1.11.0/jquery-1.11.0.min.js"></script>
     <script src="<?php echo base_url()?>assets/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
-    <script src="<?php echo base_url()?>assets/bootstrap/js/bootstrap.min.js"></script>
+   <!-- <script src="<?php echo base_url()?>assets/bootstrap/js/bootstrap.min.js"></script>-->
     <script src="<?php echo base_url()?>assets/jquery-1.11.0/jcarousel/jquery.jcarousel.min.js"></script>
     <script src="https://www.google-analytics.com/analytics.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
@@ -87,27 +87,24 @@
             }
         }
     } ?>
+    <!-- new design -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/df0850e7ca.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
 <div id="container">
-    <header>
-        <div id="collection-title">
-            <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Home" target="_blank"></a>
-            <a href="<?php echo base_url(); ?>art" class="artlogo" title="University of Edinburgh Art Collection Home"></a>
-            <a href="<?php echo base_url(); ?>art" class="menulogo" title="University of Edinburgh Art Collection Home"></a>
-        </div>
-        <div id="collection-search">
-            <form action="./redirect/" method="post">
-                <fieldset class="search">
-                    <input type="text" name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q" />
-                    <input type="submit" name="submit_search" class="btn" value="Search" id="submit_search" />
-                    <a href="./advanced" class="advanced">Advanced search</a>
-                </fieldset>
-            </form>
-        </div>
-    </header>
+        <header>
+            <div class="container-fluid">
+                <h1>Art Collection</h1>
+            </div>
+        </header>
 
     <div id="main" role="main" class="clearfix">
