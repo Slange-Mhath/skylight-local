@@ -101,10 +101,25 @@
 <body>
 
 <div id="container">
-        <header>
+    <header>
+        <div class="container-fluid">
+            <a href="">
+            <img class="header-img" onmouseout="this.src='<?php echo base_url(); ?>/theme/art/images/UoE_Stacked Logo_Blue-dark.png'" onmouseover="this.src='<?php echo base_url(); ?>/theme/art/images/UoE_Stacked-Logo_Blue-light.png'" src="<?php echo base_url(); ?>/theme/art/images/UoE_Stacked Logo_Blue-dark.png">
+            </a>
+        </div>
+        <section class="search">
+            <form action="./redirect/" method="post">
             <div class="container-fluid">
-                <h1>Art Collection</h1>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search over 8000 works of art collected over 400 years" aria-label="Search over 8000 works of art collected over 400 years" aria-describedby="basic-addon2"  name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q">
+                    <div class="input-group-append">
+                        <input type="submit" class="btn btn-outline-secondary" name="submit_search" value="Search" id="submit_search" />
+                        <button class="btn btn-outline-secondary" type="button"><a class="advanced_search" href="./advanced">Advanced search</a></button>
+                    </div>
+                </div>
             </div>
-        </header>
+            </form>
+        </section>
+    </header>
 
     <div id="main" role="main" class="clearfix">

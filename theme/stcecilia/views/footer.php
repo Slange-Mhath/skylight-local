@@ -1,4 +1,4 @@
-        <footer class="footer bg-primary">
+<footer class="footer bg-primary">
                 <div class="row">
                     <div class="col-md-3 hidden-sm hidden-xs">
                     </div>

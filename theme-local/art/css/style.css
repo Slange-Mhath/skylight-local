@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #202223;
 }
 
@@ -11,12 +11,16 @@ header {
     background-color: #52616b;
 }
 
+.header-img{
+    width: 35%;
+}
+
 .search{
     background-color: #f0f5f9;
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 2% 8% !important;
 }
 
 img{
@@ -74,10 +78,12 @@ html {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
     box-sizing: border-box;
     display: inline-block;
-    margin: auto 0;
-    padding: 8vmin;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    padding: 0vmin;
     position: relative;
     text-align: center;
+    width: 90%;
 }
 .art-frame:before {
     border-radius: 2px;
@@ -98,6 +104,22 @@ html {
     position: absolute;
     right: -2.5vmin;
     top: -2.5vmin;
+}
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700,800,900&display=swap');
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+.carousel-item .col, .carousel-item .col-sm, .carousel-item .col-md {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.list-group{
+    margin-right: 15%;
+    margin-top: 15%;
 }
 
 .carousel {
@@ -139,3 +161,15 @@ html {
     padding: 20px;
     border-radius: .5rem;
 }
+
+.centered-text{
+    text-align: center;
+    line-height: 2;
+    width: 100%;
+    margin: 2% auto;
+}
+
+button a:hover{
+    color: #04315F;
+}
+
