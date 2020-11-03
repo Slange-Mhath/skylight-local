@@ -1,7 +1,7 @@
 <section class="introduction">
     <div class="container-fluid">
         <div class="centered-text">
-            <h2>8.000 artworks from almost two millenia.</h2>
+            <h2>8,000 artworks from almost two millenia.</h2>
             <p class="centered-text">The University of Edinburgh has been engaged with the practices of commissioning,
                 purchasing and displaying the work of artists for nearly 350 years, and has amassed a collection of
                 around 8000 artworks spanning a period of almost two millennia.
@@ -119,3 +119,7 @@
             </div>
         </section>
     </div>
+    <div class="col-lg-2">
+        <?php include 'art_sidebar.php'; ?>
+    </div>
+</div>

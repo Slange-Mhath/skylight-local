@@ -1,4 +1,4 @@
-</div><footer class="page-footer font-small stylish-color-dark pt-4">
+<footer class="page-footer font-small stylish-color-dark pt-4">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -132,4 +132,4 @@
     <!-- Copyright -->
 
 </footer>
-
+</div>

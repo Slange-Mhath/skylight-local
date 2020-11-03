@@ -173,3 +173,21 @@ button a:hover{
     color: #04315F;
 }
 
+.searchform{
+    width: 50%;
+    margin: 3% auto;
+}
+
+.btn-outline-second a:hover {
+    text-decoration: none !important;
+    background-color: white;
+}
+
+a.advanced_search:hover{
+    text-decoration: none !important;
+    color: white;
+}
+
+.advanced_search:hover{
+    color: white;
+}

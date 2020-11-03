@@ -111,10 +111,10 @@
             <form action="./redirect/" method="post">
             <div class="container-fluid">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search over 8000 works of art collected over 400 years" aria-label="Search over 8000 works of art collected over 400 years" aria-describedby="basic-addon2"  name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q">
+                    <input type="text" class="form-control" placeholder="Search over 8,000 works of art collected over 400 years" aria-label="Search over 8000 works of art collected over 400 years" aria-describedby="basic-addon2"  name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q">
                     <div class="input-group-append">
                         <input type="submit" class="btn btn-outline-secondary" name="submit_search" value="Search" id="submit_search" />
-                        <button class="btn btn-outline-secondary" type="button"><a class="advanced_search" href="./advanced">Advanced search</a></button>
+                        <input type="button" class="btn btn-outline-secondary" name="submit_search" value="Advanced Search" onclick="location.href='./advanced';" />
                     </div>
                 </div>
             </div>
