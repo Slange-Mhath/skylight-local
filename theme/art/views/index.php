@@ -1,10 +1,12 @@
-<section class="introduction">
+<div class="row" id="index">
+    <div class="col-lg-9 index">
+        <section class="introduction">
     <div class="container-fluid">
         <div class="centered-text">
             <h2>8,000 artworks from almost two millenia.</h2>
             <p class="centered-text">The University of Edinburgh has been engaged with the practices of commissioning,
                 purchasing and displaying the work of artists for nearly 350 years, and has amassed a collection of
-                around 8000 artworks spanning a period of almost two millennia.
+                around 8,000 artworks spanning a period of almost two millennia.
             <p>
         </div>
         <div class="row">
@@ -62,8 +64,6 @@
         </div>
     </div>
 </section>
-<div class="row">
-    <div class="col-lg-10">
         <section class="main">
             <div class="container-fluid">
                 <p class="centered-text">
@@ -104,22 +104,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid">
+                <div class="container-fluid paragraphs">
                     <h3>Comissioning</h3>
-                    <p>Commissioning is a practice that involves the engaging of an artist in the production of a new
+                    <p style="margin-top: 1.5rem;">Commissioning is a practice that involves the engaging of an artist in the production of a new
                         work of art. The collection can offer support and advice to those wishing to commission
                         permanent and temporary art for university buildings, and as part of research. The University of
                         Edinburgh Commissioning Guidelines can be viewed here. Physical copies can be obtained on
                         request.</p>
 
-                    <h3>Moving Image</h3>
-                    <p>If you are a student or staff member at the University, you can view the the moving image
+                    <h3 style="margin-top: 3rem;">Moving Image</h3>
+                    <p style="margin-top: 1.5rem;">If you are a student or staff member at the University, you can view the the moving image
                         artworks held in the Art Collection here </p>
                 </div>
             </div>
         </section>
     </div>
-    <div class="col-lg-2">
-        <?php include 'art_sidebar.php'; ?>
-    </div>
-</div>
+    <div class="col-lg-3 index">
+
