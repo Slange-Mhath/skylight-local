@@ -12,7 +12,7 @@ header {
 }
 
 .header-img{
-    width: 35%;
+    width: 50%;
 }
 
 .search{
@@ -20,7 +20,7 @@ header {
 }
 
 .container-fluid{
-    padding: 2% 8% !important;
+    padding: 3% 8% !important;
 }
 
 img{
@@ -29,7 +29,7 @@ img{
 }
 
 .main {
-    padding: 1% 5%;
+    padding: 1.5% 5%;
     background-color: #c9d6df;
 }
 
@@ -556,4 +556,38 @@ h3.record-title {
 
 .artist{
     font-size: 14px;
+}
+
+
+.search-facets{
+    display: none;
+}
+
+.custom-nav{
+    background-color: #52606B;
+}
+
+.navbar{
+    padding: 0!important;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* padding-right: .5rem; */
+    padding-left: .5rem;
+    padding-right: 0 !important;
+}
+
+a.nav-link.m-2.menu-item {
+    margin-right: 0!important;
+}
+
+.container-fluid.header{
+    display: inline-flex;
+}
+
+.carousel {
+    width: 50%;
+    margin: auto auto;
 }
