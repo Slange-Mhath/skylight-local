@@ -8,7 +8,7 @@ h1 h2 h3 h4{
 }
 
 header {
-    background-color: #52616b;
+    background-color: white;
 }
 
 .header-img{
@@ -16,7 +16,8 @@ header {
 }
 
 .search{
-    background-color: #f0f5f9;
+    /*background-color: #f0f5f9; */
+    background-color: #e8e8e8;
 }
 
 .container-fluid{
@@ -30,7 +31,7 @@ img{
 
 .main {
     padding: 1.5% 5%;
-    background-color: #c9d6df;
+    background-color: white;
 }
 
 .text-box{
@@ -46,11 +47,11 @@ img{
 }
 
 .list-group :hover{
-    background-color: #52616b;
+    background-color: #e8e8e8;
 }
 
 footer{
-    background-color: #52616b;
+    background-color: #e8e8e8;
 }
 
 
@@ -165,8 +166,12 @@ html {
 .centered-text{
     text-align: center;
     line-height: 2;
-    width: 100%;
-    margin: 2% auto 5% auto;
+    width: 70%;
+    margin: 15% auto;
+}
+
+.centered-text h2{
+    margin-bottom: 2rem;
 }
 
 button a:hover{
@@ -338,7 +343,7 @@ table tr:last-child                 { border: 0; border-bottom: none; }
 
 
 #index{
-    background-color: #C8D6DF;
+    background-color: white;
 }
 
 
@@ -564,7 +569,7 @@ h3.record-title {
 }
 
 .custom-nav{
-    background-color: #52606B;
+    background-color: white;
 }
 
 .navbar{
@@ -588,6 +593,21 @@ a.nav-link.m-2.menu-item {
 }
 
 .carousel {
-    width: 50%;
     margin: auto auto;
+}
+
+.container-fluid.text{
+    padding:0 !important;
+}
+
+.background-banner{
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("../images/art_banner.jpg");
+    margin: 3rem auto;
+}
+
+.paragraph-part{
+    text-align: center;
+    line-height: 2;
+    width: 70%;
+    margin: 5% auto;
 }

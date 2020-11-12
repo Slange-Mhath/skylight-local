@@ -36,6 +36,11 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://releases.flowplayer.org/6.0.4/skin/minimalist.css">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/font-awesome/css/font-awesome.min.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
 
     <!-- Uncomment if you are specifically targeting less enabled mobile browsers
     <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
@@ -59,6 +64,7 @@
         ga('create', '<?php echo $ga_code ?>', 'auto');
         ga('send', 'pageview');
     </script>
+
     <!-- End Google Analytics -->
 
     <script src="https://releases.flowplayer.org/6.0.4/flowplayer.min.js"></script>
@@ -103,9 +109,11 @@
 <div id="container">
     <header>
         <div class="container-fluid header">
+            <div class="header-logo">
             <a href="">
             <img class="header-img" onmouseout="this.src='<?php echo base_url(); ?>/theme/art/images/UoE_Stacked Logo_Blue-dark.png'" onmouseover="this.src='<?php echo base_url(); ?>/theme/art/images/UoE_Stacked-Logo_Blue-light.png'" src="<?php echo base_url(); ?>/theme/art/images/UoE_Stacked Logo_Blue-dark.png">
             </a>
+            </div>
             <nav class="navbar navbar-expand-lg navbar-light custom-nav">
                 <div class="d-flex flex-grow-1">
                     <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
@@ -124,7 +132,7 @@
                             <a href="#" class="nav-link m-2 menu-item">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link m-2 menu-item">Comissioning</a>
+                            <a href="./comissioning" class="nav-link m-2 menu-item">Comissioning</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link m-2 menu-item">Contact</a>
