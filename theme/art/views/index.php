@@ -1,16 +1,10 @@
-<div class="row" id="index" xmlns="http://www.w3.org/1999/html">
+
     <section class="introduction">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="centered-text">
-                        <h2>8,000 artworks <br/>from almost two millenia.</h2>
-                        <p>The University of Edinburgh has been engaged with the practices of
-                            commissioning,
-                            purchasing and displaying the work of artists for nearly 350 years, and has amassed a
-                            collection of
-                            around 8,000 artworks spanning a period of almost two millennia.
-                        </p>
+                        <h2>8,000 artworks <br/>spanning two millenia.</h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -42,49 +36,30 @@
     <div class="background-banner">
         <div class="container-fluid text">
             <p class="paragraph-part">
-                The early stages of this collecting were closely linked with galvanising the institutions identity
-                and status as a place of learning and inspiration. Portraits and sculptural busts of Professors,
-                Ministers and key alumni were accumulated and testified to the University’s identity as a powerful
-                Enlightenment institution.
+                The University of Edinburgh has been engaged with the practices of commissioning, purchasing and displaying the work of artists for nearly 350 years. The early stages of this collecting were closely linked with galvanising the institutions identity and status as a place of learning and inspiration, through the commissioning and purchase of portraits and busts of Professors and key alumni.
+                <br>
+                <br>
+                Alongside commissioning and displaying work across campus, emphasis is now placed on the use of artworks in the support and development of research and teaching.
+
             </p>
         </div>
     </div>
-    <section class="main">
-        <div class="container-fluid text">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="<?php echo base_url(); ?>theme/art/images/ArtExhib.jpg" class="img-fluid">
+                    <img src="<?php echo base_url(); ?>theme/art/images/John_Brown_art.png" class="img-fluid">
                 </div>
                 <div class="col-lg-6">
                     <div class="centered-text">
                         <p class="desc-text">
-                            Over time, the University began to look to artworks as a means of decoration and
-                            adornment for the buildings and campuses constructed as advancements happened in fields
-                            of study. This work continues, but a greater emphasis is now placed on the use of
-                            artworks in the support and development of research and teaching; both as a means of
-                            illustrating complex ideas, or offering up innovative thinking or commentary through the
-                            materials or subject matter they employ.
+                            The present day Art Collection is made up of two institutional collections – the University of Edinburgh Fine Art Collection & the Edinburgh College of Art Collection. <a href="">Together they are comprised of twelve sub-collections, which you can view here.</a>
+                            <br><br>
+                            Although figures are not exact because data hasn’t been consistently recorded, estimates are that white, western European artists represent the upper 90% of the collection. Around 33% of the overall individuals represented in the holdings are women, meaning the majority of works collected were by men.
                         </p>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="centered-text">
-                        <p class="desc-text">
-                            We continue to actively acquire and commission works, with the most recent strand of
-                            development being the Contemporary Art Research Collection (CARC). Established in 2015
-                            in partnership with academics in the History of Art department at ECA, the CARC takes
-                            globalisation as its central theme, setting a specific focus on women's experience and
-                            the contribution of feminist thought. Artists acquired to date include Alberta Whittle,
-                            Shona Mcnaughton, Kate Davis, Melanie Gilligan, and Petra Bauer.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="<?php echo base_url(); ?>theme/art/images/Art_Exhib2.png" class="img-fluid">
                 </div>
             </div>
         </div>
-    </section>
-</div>
+
 
 

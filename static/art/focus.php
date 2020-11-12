@@ -1,9 +1,4 @@
-<section class="commissioning">
-    <div class="container-fluid text">
-        <p class="paragraph-part">
-            Commissioning is a practice that involves the engaging of an artist in the production of a new work of art.
-            The University Art Collection can offer support and advice to those wishing to commission permanent and temporary art for University buildings, and as part of research. The University of Edinburgh Commissioning Guidelines can be viewed here, with physical copies available on request.</p>
-    </div>
+<section class="in-focus">
     <div class="row">
         <div class="col-lg-6"><img src="https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" class="img-fluid"></div>
         <div class="col-lg-6">

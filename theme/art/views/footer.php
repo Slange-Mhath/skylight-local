@@ -6,7 +6,7 @@
         <hr>
 
         <!-- Call to action -->
-        <ul class="list-unstyled list-inline text-center py-2">
+        <ul id="contact" class="list-unstyled list-inline text-center py-2">
             <li class="list-inline-item">
                 <h5 class="mb-1">For more information on borrowing, gifting or of viewing artwork</h5>
             </li>

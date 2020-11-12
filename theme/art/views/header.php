@@ -129,13 +129,16 @@
                 <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                     <ul class="navbar-nav ml-auto flex-nowrap">
                         <li class="nav-item">
-                            <a href="#" class="nav-link m-2 menu-item">Home</a>
+                            <a href="#" class="nav-link text-nowrap m-2 menu-item">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./comissioning" class="nav-link m-2 menu-item">Comissioning</a>
+                            <a href="./comissioning" class="nav-link text-nowrap m-2 menu-item">Comissioning</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                            <a href="./focus" class="nav-link text-nowrap m-2 menu-item">In Focus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text-nowrap m-2 menu-item">Contact</a>
                         </li>
                     </ul>
                 </div>
