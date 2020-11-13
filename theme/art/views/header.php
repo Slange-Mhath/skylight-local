@@ -129,16 +129,16 @@
                 <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                     <ul class="navbar-nav ml-auto flex-nowrap">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-nowrap m-2 menu-item">Home</a>
+                            <a href="#" class="nav-link text-nowrap m-2 menu-item">| Home |</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./comissioning" class="nav-link text-nowrap m-2 menu-item">Comissioning</a>
+                            <a href="./comissioning" class="nav-link text-nowrap m-2 menu-item">Comissioning |</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./focus" class="nav-link text-nowrap m-2 menu-item">In Focus</a>
+                            <a href="./focus" class="nav-link text-nowrap m-2 menu-item">In Focus |</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link text-nowrap m-2 menu-item">Contact</a>
+                            <a href="#contact" class="nav-link text-nowrap m-2 menu-item">Contact |</a>
                         </li>
                     </ul>
                 </div>
@@ -149,7 +149,7 @@
             <form action="./redirect/" method="post">
             <div class="container-fluid">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search over 8,000 works of art collected over 400 years" aria-label="Search over 8000 works of art collected over 400 years" aria-describedby="basic-addon2"  name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q">
+                    <input type="text" class="form-control" placeholder="Search the collection" aria-describedby="basic-addon2"  name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q">
                     <div class="input-group-append">
                         <input type="submit" class="btn btn-outline-secondary" name="submit_search" value="Search" id="submit_search" />
                         <input type="button" class="btn btn-outline-secondary" name="submit_search" value="Advanced Search" onclick="location.href='./advanced';" />

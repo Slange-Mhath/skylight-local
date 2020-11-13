@@ -124,7 +124,7 @@ html {
 }
 
 .carousel {
-    width: 100%;
+    width: 47%;
 }
 
 .slide-box {
@@ -167,7 +167,7 @@ html {
     text-align: center;
     line-height: 2;
     width: 70%;
-    margin: 15% auto;
+    margin: 2.5rem auto;
 }
 
 .centered-text h2{
@@ -584,9 +584,6 @@ h3.record-title {
     padding-right: 0 !important;
 }
 
-a.nav-link.m-2.menu-item {
-    margin-right: 0!important;
-}
 
 .container-fluid.header{
     display: inline-flex;
@@ -601,7 +598,7 @@ a.nav-link.m-2.menu-item {
 }
 
 .background-banner{
-    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("../images/art_banner.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.79), rgba(255,255,255,0.79)), url("../images/art_banner.jpg");
     margin: 3rem auto;
 }
 
@@ -610,14 +607,20 @@ a.nav-link.m-2.menu-item {
     line-height: 1.5;
     font-size: 1.3rem;
     width: 50%;
-    margin: 5% auto;
+    margin: auto auto;
     padding: 3% 0 3% 0;
 }
 
+.container-fluid.text h2{
+    padding-top: 3%;
+    width: 50%;
+    margin: auto auto;
+}
+
 .introduction h2{
-    text-transform: uppercase;
     font-size: 3rem;
     line-height: 1.5;
+    color: rgba(0,0,0,.5);
 }
 
 .desc-text{
@@ -625,4 +628,32 @@ a.nav-link.m-2.menu-item {
     font-size: 1.3rem;
     margin: -1rem auto;
     text-align: left;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.centered-text h3{
+    text-align: left;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+}
+
+.date{
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    text-align: left;
+}
+
+.col-lg-6 .centered-text{
+    margin: auto auto;
+}
+
+.container-fluid .col-lg-6{
+    margin: 6rem auto;
 }
