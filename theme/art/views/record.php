@@ -135,7 +135,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
 }
 ?>
 
-<div class="content">
+<div class="content record">
   <!--Insert Schema-->
   <div itemscope itemtype ="https://schema.org/CreativeWork">
     <div class="full-title">
@@ -630,5 +630,5 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
 
     ?>
 
-    <input type="button" value="Back to Search Results" class="backbtn" onClick="history.go(-1);">
+    <input type="button" value="Back to Search Results" class="backbtn record" onClick="history.go(-1);">
 </div>

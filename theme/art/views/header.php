@@ -132,10 +132,13 @@
                             <a href="#" class="nav-link text-nowrap m-2 menu-item">| Home |</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./comissioning" class="nav-link text-nowrap m-2 menu-item">Comissioning |</a>
+                            <a href="./focus" class="nav-link text-nowrap m-2 menu-item">In Focus |</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./focus" class="nav-link text-nowrap m-2 menu-item">In Focus |</a>
+                            <a href="./comissioning" class="nav-link text-nowrap m-2 menu-item">Commissioning |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./loans" class="nav-link text-nowrap m-2 menu-item">Loans |</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact" class="nav-link text-nowrap m-2 menu-item">Contact |</a>

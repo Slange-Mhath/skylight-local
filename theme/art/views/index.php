@@ -1,7 +1,7 @@
 <section class="introduction">
     <div class="container-fluid">
         <div class="centered-text">
-            <h2>8,000 artworks <br/>spanning two millenia</h2>
+            <h2>8,000 artworks spanning two millenia</h2>
         </div>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -30,25 +30,12 @@
     <div class="container-fluid text">
         <h2>About</h2>
         <p class="paragraph-part">
-            The University of Edinburgh has been engaged with the practices of commissioning, purchasing and displaying
-            the work of artists for nearly 350 years. The early stages of this collecting were closely linked with
-            galvanising the institutions identity and status as a place of learning and inspiration, through the
-            commissioning and purchase of portraits and busts of Professors and key alumni.
-            <br>
-            <br>
-            Alongside commissioning and displaying work across campus, emphasis is now placed on the use of artworks in
-            the support and development of research and teaching.
-            <br>
-            <br>
-            The present day Art Collection is made up of two institutional collections – the University of
-            Edinburgh Fine Art Collection & the Edinburgh College of Art Collection.
-            <a href="./browse/Collection">Together they are comprised of twelve sub-collections, which you can
-                view here.</a>
+            The University of Edinburgh has been engaged with the practices of commissioning, purchasing and displaying the work of artists for nearly 350 years. The early stages of this collecting were closely linked with galvanising the institution’s identity and status as a place of learning and inspiration, through the commissioning and collecting of portraits and busts of Professors and key alumni.<br><br>
+            The present day Art Collection is comprised of two institutional collections – the University of Edinburgh Fine Art Collection and the Edinburgh College of Art Collection. Now amounting to nearly 8,000 artworks spanning two millennia, the collection is divided into twelve named sub-collections which can be viewed <a href="https://collections.ed.ac.uk/art/browse/Collection">here</a>.
             <br><br>
-            Although figures are not exact because data hasn’t been consistently recorded, estimates are that
-            white, western European artists represent the upper 90% of the collection. Around 33% of the overall
-            individuals represented in the holdings are women, meaning the majority of works collected were by
-            men.
+            Alongside <a href="./comissioning">commissioning</a> new work, displaying the collection across campus, and lending to external venues, greater emphasis is now placed on the acquisition and use of artworks in the support and development of research and teaching.
+            <br><br>
+            In addition to searching the collection via these pages, The University of Edinburgh Art Collection also has two discrete areas on <a href="https://www.artuk.org/about/about">Art UK</a>; one for the <a href="https://artuk.org/visit/venues/university-of-edinburgh-5095">University's Fine Art Collection</a> and one for <a href="https://artuk.org/visit/venues/edinburgh-college-of-art-university-of-edinburgh-7553">Edinburgh College of Art</a>.
         </p>
     </div>
 </div>

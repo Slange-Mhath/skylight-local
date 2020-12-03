@@ -166,12 +166,12 @@
             ?>
         </ul>
 
-        <div class="pagination">
+        <div class="pagination search">
         <span class="no-results">
             <strong><?php echo $startrow ?>-<?php echo $endrow ?></strong> of
             <strong><?php echo $rows ?></strong> results </span>
             <?php echo $pagelinks ?>
         </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-lg-3 search">
 
